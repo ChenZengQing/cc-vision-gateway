@@ -197,7 +197,7 @@ export STRICT_MODEL_MAP=false
 export VISION_PROVIDER=qwen
 export VISION_BASE_URL=https://dashscope.aliyuncs.com/compatible-mode/v1
 export VISION_API_KEY=xxx
-export VISION_MODEL=qwen3-vl-flash
+export VISION_MODEL=qwen3.6-flash
 export VISION_TIMEOUT=120s
 export VISION_PROMPT_MODE=fast
 export VISION_CONTEXT_SCOPE=last_user
@@ -373,7 +373,7 @@ Claude Code 发出的图片内容一般会出现在 messages 的 content array �
 图片序号：1
 来源消息：user message index 3
 Vision provider：qwen
-Vision model：qwen3-vl-flash
+Vision model：qwen3.6-flash
 
 视觉事实：
 ...
@@ -749,7 +749,7 @@ sha256(processed_media_type + processed_image_bytes + vision_prompt_version + no
 {
   "vision_text": "...",
   "provider": "qwen",
-  "model": "qwen3-vl-flash",
+  "model": "qwen3.6-flash",
   "created_at": "2026-05-13T12:00:00Z"
 }
 ```
@@ -957,7 +957,7 @@ STRICT_MODEL_MAP=false
 VISION_PROVIDER=qwen
 VISION_BASE_URL=https://dashscope.aliyuncs.com/compatible-mode/v1
 VISION_API_KEY=xxx
-VISION_MODEL=qwen3-vl-flash
+VISION_MODEL=qwen3.6-flash
 VISION_PROMPT_MODE=fast
 VISION_CONTEXT_SCOPE=last_user
 VISION_PREPROCESS=true

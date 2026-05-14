@@ -121,7 +121,7 @@ TEXT_MODEL=deepseek-v4-pro
 TEXT_FALLBACK_MODEL=deepseek-v4-flash
 
 VISION_BASE_URL=https://dashscope.aliyuncs.com/compatible-mode/v1
-VISION_MODEL=qwen3-vl-flash
+VISION_MODEL=qwen3.6-flash
 VISION_TIMEOUT=8s
 ```
 

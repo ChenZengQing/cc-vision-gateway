@@ -72,7 +72,7 @@ func Load() (Config, error) {
 		VisionProvider:       env("VISION_PROVIDER", "qwen"),
 		VisionBaseURL:        strings.TrimRight(env("VISION_BASE_URL", "https://dashscope.aliyuncs.com/compatible-mode/v1"), "/"),
 		VisionAPIKey:         os.Getenv("VISION_API_KEY"),
-		VisionModel:          env("VISION_MODEL", "qwen3-vl-flash"),
+		VisionModel:          env("VISION_MODEL", "qwen3.6-flash"),
 		VisionTimeout:        durationEnv("VISION_TIMEOUT", 120*time.Second),
 		VisionPromptMode:     env("VISION_PROMPT_MODE", "fast"),
 		VisionContextScope:   env("VISION_CONTEXT_SCOPE", "last_user"),
