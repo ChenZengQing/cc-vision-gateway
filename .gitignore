@@ -1,0 +1,5 @@
+.env
+data/
+cc-vision-gateway
+*.log
+.DS_Store

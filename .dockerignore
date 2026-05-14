@@ -1,0 +1,8 @@
+.env
+.git
+.gitignore
+.dockerignore
+data
+cc-vision-gateway
+*.log
+.DS_Store
