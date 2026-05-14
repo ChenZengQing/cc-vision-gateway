@@ -65,7 +65,7 @@ func Load() (Config, error) {
 		TextImageFastModel:   env("TEXT_IMAGE_FAST_MODEL", "deepseek-v4-flash"),
 		TextImageStrongModel: env("TEXT_IMAGE_STRONG_MODEL", "deepseek-v4-pro"),
 		TextImageRouting:     env("TEXT_IMAGE_ROUTING", "auto"),
-		TextTimeout:          durationEnv("TEXT_TIMEOUT", 120*time.Second),
+		TextTimeout:          durationEnv("TEXT_TIMEOUT", 30*time.Minute),
 		TextAPIFormat:        env("TEXT_API_FORMAT", "anthropic_compatible"),
 		ModelMapFile:         env("MODEL_MAP_FILE", "config/model-map.json"),
 		StrictModelMap:       boolEnv("STRICT_MODEL_MAP", false),
